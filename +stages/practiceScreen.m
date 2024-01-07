@@ -108,9 +108,12 @@ while correctAttempts <= totalAttempts
     % Helping variable
     outcomeCode = 0;
 
-    % Generate trials sequence
+    % Generate trials sequence so that there are no consequently repeated letters 
     numTrials = 1 + randi(4, 1);
     randomNonTargetIndices = randi(numel(nonTargets),[1 numTrials]);
+    while min(abs(diff(randomNonTargetIndices))) == 0
+        randomNonTargetIndices = randi(numel(nonTargets),[1 numTrials]);
+    end
     practiceTrialSequence = strcat(nonTargets(randomNonTargetIndices), targetsSequence(correctAttempts));
 
     % Flag if previous letter is the same
