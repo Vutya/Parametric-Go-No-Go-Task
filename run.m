@@ -23,11 +23,11 @@ screenNr  = min(Screen('Screens'));
 colors = struct('black', [0, 0, 0], 'white', [255, 255, 255], ...
     'red', [255, 0  , 0  ], 'green', [0  , 120, 0  ]);
 
-% Open an on screen window and color it white
-[window, ~] = PsychImaging('OpenWindow', screenNr, colors.white);
-
 % Synchronization tests for better timing
 Screen('Preference', 'SyncTestSettings', 0.001);
+
+% Open an on screen window and color it white
+[window, ~] = PsychImaging('OpenWindow', screenNr, colors.white);
 
 % Hiding mouse cursor
 HideCursor(screenNr);
