@@ -1,27 +1,29 @@
 # Parametric-Go-No-Go-Task
-Psychtoolbox code for Paramtric Go/No-Go Task (PGNG task) from (Langenecker et al., 2007)
+Psychtoolbox code for Paramtric Go/No-Go Task (PGNG task) from (Langenecker et al., 2007)  
 
 # Purpose of the experiment. What does it do? How to interpret the final output?
-This is a Parametric Go/No-Go task - modified version of more traditional Go/No-Go task, but without some of the limitations and psychometrically well-characterized. It introduces 3 levels of the task. Level 1 has only 3 target letters (i.e., Go-trials). Level 2 has 2 target letters, but one cannot Go for them if they are repeated (e.g., 2 letters "x" in a row, the second one is No-Go trial). Level 3 is the same as level 2, but with 3 target letters instead of 2. 
+This is a Parametric Go/No-Go task - modified version of more traditional Go/No-Go task, but without some of the limitations and psychometrically well-characterized. It introduces 3 levels of the task. Level 1 has only 3 target letters (i.e., Go-trials). Level 2 has 2 target letters, but one cannot Go for them if they are repeated (e.g., 2 letters "x" in a row, the second one is No-Go trial). Level 3 is the same as level 2, but with 3 target letters instead of 2.   
 Level 2 and 3 measures from the PGNG were intended to assess more complex executive (CE) functioning skills and context-based inhibition.
 
-On each level PGNG task measures (1) sustained attention and set maintenance (PCTT - percentage correct target trials), (2) simple processing speed (complex for other levels) (RTT - Reaction time to targets), and (3) response inhibition (PCIT - percentage correct inhibitory trials).
+On each level PGNG task measures (1) sustained attention and set maintenance (PCTT - percentage correct target trials),  
+(2) simple processing speed (complex for other levels) (RTT - Reaction time to targets), and  
+(3) response inhibition (PCIT - percentage correct inhibitory trials).
 
-Level 1: PCTT, RTT
-Level 2: PCTT, RTT, PCIT
-Level 3: PCTT, RTT, PCIT
+Level 1: PCTT, RTT  
+Level 2: PCTT, RTT, PCIT  
+Level 3: PCTT, RTT, PCIT  
 
-PCTT is computed by dividing the correct target responses by the total number of possible target responses for the respective level of the task. 
-RTT is the average response time for correct targets for all levels of the task.
-PCIT is computed by dividing the total number of correct inhibitory trials by the total number of potential inhibitory trials for Levels 2 and 3, respectively.
+PCTT is computed by dividing the correct target responses by the total number of possible target responses for the respective level of the task.   
+RTT is the average response time for correct targets for all levels of the task.  
+PCIT is computed by dividing the total number of correct inhibitory trials by the total number of potential inhibitory trials for Levels 2 and 3, respectively.  
 
-General structure of the task:
+General structure of the task:  
 Introduction -> First Rule and Practice -> Level 1 trials -> Second Rule and Practice -> Level 2 trials -> Third Rule and Practice -> Level 3 trials -> Feedback
 
 # Usage example and instruction. How to run it?
-You should specify subject number and just type run(subjectNumber). Tested with Matlab R2023b and Psychtoolbox 3.0.19.
+You should specify subject number and just type run(subjectNumber). Tested with Matlab R2023b and Psychtoolbox 3.0.19.  
 
-TODO: improve randomization to make it quicker
+TODO: improve randomization to make it quicker  
 
 # References
 Main papers introducing the PGNG task and it's psychometric properties:
