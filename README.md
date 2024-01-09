@@ -31,6 +31,7 @@ Main papers introducing the PGNG task and it's psychometric properties:
 * [Votruba, K. L., & Langenecker, S. A. (2013). Factor structure, construct validity, and age-and education-based normative data for the Parametric Go/No-Go Test. Journal of clinical and experimental neuropsychology, 35(2), 132-146.](https://doi.org/10.1080/13803395.2012.758239)
 * [One implementation of the task](https://www.millisecond.com/download/library/v6/pgng/pgng/pgng.manual)
 * [Another description of the PGNG task](https://jankawis.github.io/battery_of_tasks_WIS_UCLA/PGNG.html)
+* Telegram [post](https://t.me/noProspectTheory/109) about the task (in Russian)
 
 Examples of usage:
 * [Weidacker, K., Whiteford, S., Boy, F., & Johnston, S. J. (2017). Response inhibition in the parametric go/no-go task and its relation to impulsivity and subclinical psychopathy. Quarterly journal of experimental psychology, 70(3), 473-487.](https://doi.org/10.1080/17470218.2015.1135350) - mean PCIT over levels 2 and 3 correlates with Barratt Impulsivity Scale (BIS–11) Cognitive Complexity subscale and Blame Externalization subscale of the PPI–R
